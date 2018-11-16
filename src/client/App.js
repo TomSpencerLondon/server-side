@@ -14,7 +14,5 @@ const App = ({ route }) => {
 
 export default {
   component: App,
-  loadData: ({ dispatch }) => {
-    return dispatch(fetchCurrentUser())
-  }
+  loadData: ({ dispatch }) => dispatch(fetchCurrentUser())
 };
